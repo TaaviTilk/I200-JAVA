@@ -70,7 +70,7 @@ public class KirjutaXML {
             DOMSource source = new DOMSource(doc);
 
             //StreamResult result =  new StreamResult(System.out);
-            StreamResult result = new StreamResult(new File("/Users/Taavi Tilk/IdeaProjects/InsuliiniKogus/file2.xml"));
+            StreamResult result = new StreamResult(new File("file2.xml"));
              transformer.transform(source, result);
             //System.out.println("File saved!");
         }
